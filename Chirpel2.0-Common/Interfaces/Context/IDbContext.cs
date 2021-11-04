@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 
-namespace Chirpel2._0_Common.Interfaces
+namespace Chirpel2._0_Common.Interfaces.Context
 {
     public interface IDbContext
     {

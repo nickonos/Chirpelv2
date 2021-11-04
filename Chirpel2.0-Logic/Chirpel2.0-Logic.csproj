@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Chirpel2.0-Common\Chirpel2.0-Common.csproj" />
+  </ItemGroup>
+
 </Project>

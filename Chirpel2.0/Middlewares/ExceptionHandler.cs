@@ -24,7 +24,7 @@ namespace Chirpel2._0.Middlewares
                 response.ContentType = "application/json";
 
                 response.StatusCode = ex.StatusCode;
-                if (ex.StatusCode == 401 || ex.StatusCode == 402 || ex.StatusCode == 404 || ex.StatusCode == 500)
+                if (ex.StatusCode == 401 || ex.StatusCode == 402 || ex.StatusCode == 404 || ex.StatusCode == 409 || ex.StatusCode == 500)
                 {
                     await response.WriteAsync(JsonSerializer.Serialize(ex.Message));
                     return;
